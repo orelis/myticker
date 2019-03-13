@@ -1,0 +1,148 @@
+.wrpper-tiker{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.border-list{
+    border-bottom: 1px solid #a91919;
+    border-top: 1px solid #a91919;
+    padding: 8px 0;
+    margin: 0 auto;
+}
+
+.border-box{
+    border: 2px solid red;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.user-account{
+    margin-top: 20px;
+}
+
+.user-img{
+    width: 70px;
+    height: 70px;
+    margin-left: 3%;
+    vertical-align: top;
+    float: right;
+}
+
+textarea{
+    margin: 0px;
+    height: 121px;
+    width: 78%;
+    padding: 2%;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.user-account button{
+    display: block;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 5px 60px;
+    background-image: radial-gradient(#a91919, #bf1212 );
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.user-account button:hover{
+    opacity: 0.5;
+}
+
+.wrapp-img img{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.wrpper-tiker ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.wrapp-content{
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+}
+
+.wrapp-img{
+    display: inline-block;
+}
+
+.wrpper-tiker ul p{
+    margin: 5px;
+}
+
+.wrpper-tiker ul li{
+    max-height: 100px;
+    overflow: auto;
+}
+
+.wrpper-tiker .name{ 
+    font-size: 24px;
+    text-transform: capitalize;
+ }
+
+ .wrpper-tiker .date{
+     color: red;
+     font-size: 14px;
+ }
+
+.wrpper-tiker .text{
+    word-wrap: break-word;
+ }
+
+ /* animation */
+ /* fadeIn */
+ .fadeIn {
+    -webkit-animation-name: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+        max-height: 0;
+        opacity: 0;
+      }
+    30%{
+      max-height: 100px;
+    }
+    100% { 
+        opacity: 1;
+    }
+  } 
+  
+  @keyframes fadeIn {
+    0% {
+      max-height: 0;
+      opacity: 0;
+    }
+    30%{
+    max-height: 100px;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* end animation */
